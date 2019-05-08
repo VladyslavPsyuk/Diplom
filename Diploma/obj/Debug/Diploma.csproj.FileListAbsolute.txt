@@ -1,0 +1,5 @@
+C:\Users\Asus\source\repos\Diploma\Diploma\obj\Debug\Diploma.csprojAssemblyReference.cache
+C:\Users\Asus\source\repos\Diploma\Diploma\obj\Debug\Diploma.Form1.resources
+C:\Users\Asus\source\repos\Diploma\Diploma\obj\Debug\Diploma.Properties.Resources.resources
+C:\Users\Asus\source\repos\Diploma\Diploma\obj\Debug\Diploma.csproj.GenerateResource.cache
+C:\Users\Asus\source\repos\Diploma\Diploma\obj\Debug\Diploma.csproj.CoreCompileInputs.cache
