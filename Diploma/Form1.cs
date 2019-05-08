@@ -49,9 +49,14 @@ namespace Diploma
 
                 if (text.ToLower() == "Get Time")
                 {
-                    byte []  data= Encoding.ASCII.GetBytes(DateTime.Now.ToLon)
-                    socket.BeginSend()
+                    byte[] data = Encoding.ASCII.GetBytes(DateTime.Now.ToLongTimeString());
+                    socket.BeginSend(data, 0 ,data.Length, SocketFlags.None, new AsyncCallback (), socket);
                 }
+            }
+
+            private static void SendCallBack(IAsyncResult AR)
+            {
+                Socket socket = (Socket)AR.AsyncState;
             }
         }
 
